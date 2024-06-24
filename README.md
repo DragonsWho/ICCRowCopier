@@ -23,6 +23,6 @@ Run the script from the command line as follows:
 For example: `python ICCRowCopier.py project.json row-1 row-2 9`
 This will copy the row with ID "row-1", insert it after "row-2", and update all its IDs to use the number 9.
 
-#Notes
-the original row should have IDs of the form row-1, choice-1, etc. All hyphenated and with one serial number. 
+# Notes
+The original row should have IDs of the form row-1, choice-1, etc. All hyphenated and with one serial number. 
 All these sequence numbers will be replaced by the one you specified, including in the requirements. 
