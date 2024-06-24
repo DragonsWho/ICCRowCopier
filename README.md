@@ -18,9 +18,9 @@ This Python script is designed to copy rows in the project.json file of a CYOA c
 # Usage
 Run the script from the command line as follows:
 
- python ICCRowCopier.py <path_to_json_file> <source_row_id> <target_row_id> <new_row_number>
+`python ICCRowCopier.py <path_to_json_file> <source_row_id> <target_row_id> <new_row_number>`
 
-For example: python ICCRowCopier.py project.json row-1 row-2 9
+For example: `python ICCRowCopier.py project.json row-1 row-2 9`
 This will copy the row with ID "row-1", insert it after "row-2", and update all its IDs to use the number 9.
 
 #Notes
